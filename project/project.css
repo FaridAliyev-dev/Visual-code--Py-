@@ -1,0 +1,304 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Existing styles */
+
+.profile-image {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Adjust the width as needed */
+    border-radius: 50%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Existing styles */
+
+/* Add colors */
+header {
+    background-color: #007BFF; /* Blue background color */
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker color on hover */
+}
+
+/* Add animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Style profile image */
+.profile-image {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Adjust the width as needed */
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Light gray background color */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
+}
+/* Existing styles */
+
+/* Add transition to header background color */
+header {
+    background-color: #007BFF; /* Blue background color */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Rest of your styles */
+/* Existing styles */
+
+/* Add transition to header background color */
+header {
+    background-color: #007BFF; /* Blue background color */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Add animation to headings */
+h2, h3 {
+    animation: slideUp 1s ease-in-out, fadeIn 1s ease-in-out;
+}
+
+/* Add animation to paragraphs */
+p {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Add animation to links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+    animation: fadeIn 1s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker color on hover */
+}
+
+/* Rest of your styles */
+
+/* Additional animations */
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Rest of your styles */
+/* animations.css */
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Light gray background color */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
+}
+
+h1, h2, h3 {
+    color: #333;
+    animation: slideUp 1s ease-in-out, fadeIn 1s ease-in-out;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+    animation: fadeIn 1s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker color on hover */
+}
+
+/* Additional animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Add AOS animation class */
+.aos-animate {
+    opacity: 1; /* Start with opacity 1 for fade-in effect */
+    transform: translateY(0);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+/* Additional animation for header */
+@keyframes colorChange {
+    0% {
+        background-color: #007BFF;
+    }
+    50% {
+        background-color: #333;
+    }
+    100% {
+        background-color: #007BFF;
+    }
+}
+
+header {
+    animation: fadeIn 1s ease-in-out, colorChange 5s infinite;
+}
+
+/* Rest of your styles */
